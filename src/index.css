@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.next{
+  background-image: linear-gradient(to right, rgba(222,229,255,100%),rgba(128,154,255,100%));
+}
+.blueGradient{
+  background-image: linear-gradient(to right, rgba(149,190,255,100%),rgba(123,145,255,100%));
+}

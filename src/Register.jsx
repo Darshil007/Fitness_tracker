@@ -7,6 +7,9 @@ const Register = () => {
  const handleNavigate = () =>{
     navigate("/Login");
  }
+ const handleNavigate1 = () =>{
+    navigate("/Login");
+ }
   return (
     <div className='flex justify-center items-center h-[100vh]'>
        <div className='w-[330px] h-[650px] bg-[#F8FAFC]'>
@@ -39,7 +42,7 @@ const Register = () => {
             </div>
             <div className='Buttons flex flex-col justify-evenly items-center p-2'>
                 <div className='create-Account w-[310px] h-[42px] blueGradient flex justify-center items-center rounded-xl mb-2'>
-                    <button className='text-[#FFFFFF] font-semibold text-[17px] text-center'>Create an Account</button>
+                    <button onClick={handleNavigate1} className='text-[#FFFFFF] font-semibold text-[17px] text-center'>Create an Account</button>
                 </div>
                 <div className='or flex flex-row justify-center items-center mb-2'>
                     <hr className='w-[145px] px-1'/><span className='text-[12px] font-md text-black px-1 font-semibold'>Or</span><hr className='w-[145px] px-1'/>
